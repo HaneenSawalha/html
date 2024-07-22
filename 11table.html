@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+
+
+</head>
+<body>
+    <table  border="1" width="800px" >
+        <caption> student </caption>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>sum</th>
+            </tr>
+        </thead>
+        
+
+        <!-- th head for colu in table -->
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ahmad</td>
+                <td>ahmad@g.com</td>
+                <td>6</td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td rowspan="2">haneen</td>
+                <td rowspan="2">haneen@g.com</td>  
+                <td>10</td>  
+    
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <!-- <td>haneen@g.com</td>   -->
+                <td>7</td>  
+    
+            </tr>
+
+            <!-- اذا بدك تدمج خلايا في صفوف مختلفة بنستخدم rowspan
+ -->
+        </tbody>
+
+ 
+<!-- نهاية الجدول -->
+
+        <!-- <tfoot> 
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+          </tr> 
+        </tfoot>-->
+
+
+        <tfoot>
+            <tr>
+                <td colspan="3">sum</td>
+                <!-- <td></td>
+                <td></td> -->
+
+                <td>23</td>
+            </tr>
+
+            <!-- اذا بدك تدمج خلايا في نفس الصف استخدم colspan
+ -->
+        </tfoot>
+
+        
+    </table>
+    
+</body>
+</html>
